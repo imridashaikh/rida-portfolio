@@ -1,0 +1,90 @@
+*{
+    border: palegreen;
+
+background: rgb(231, 184, 243);
+}
+.header{
+    border-color: rgb(185, 107, 192);
+    border-width: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    padding: 20px;
+}
+.menu a{
+    margin: 30px;
+    
+}
+
+
+.item{
+    position: relative;
+
+}
+
+.item h5{
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%) ;
+opacity: 0;
+}
+.item:hover h5{
+    opacity: 1;
+}
+
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fashion{
+
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p1{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.kpop{
+
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.bts{
+
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.straykids{
+
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.hobby{
+
+
+    display: flex;
+    justify-content: space-evenly;
+}
